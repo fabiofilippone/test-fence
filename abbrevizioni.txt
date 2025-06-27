@@ -1,0 +1,12 @@
+Nella tabella dei risultati degli incontri di scherma, le abbreviazioni che hai indicato sono tipiche del sistema internazionale di punteggio e analisi. Vediamole tutte per chiarezza:
+
+    V = Victories → Vittorie totali dell’atleta
+
+    V/M = Victories per Match → Rapporto tra vittorie e incontri disputati
+
+    TS = Touches Scored → Stoccate date (i punti inflitti agli avversari)
+
+    TR = Touches Received → Stoccate subite (i punti ricevuti dagli avversari)
+
+    Ind. = Indicator → Indicatore (differenza tra TS e TR: TS - TR)
+

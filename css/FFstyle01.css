@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  margin:        20px;
+  padding:     0 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  width:         100%;
+  overflow-x:    auto;
+  display:      block;
+}
+
+th, td {
+/* border: 1px   solid red; */
+  text-align:    left;
+  padding:        5px;
+  min-width:     30px;
+  font-size:     14px;
+}
+
+.table-container {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.APoolTab {
+  border-collapse:  collapse;
+  table-layout:     auto;
+  width:            auto;
+}
+
+/*
+.APoolTab th, .APoolTab td {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  white-space: nowrap;  
+  font-size: 14px;
+  color: red;
+}
+*/
+
+.APoolTab thead th:first-child {
+  background-color: lightblue;
+}
+
+.APoolTab thead th:nth-child(2) {
+  background-color: lightgreen;
+}
