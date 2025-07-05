@@ -1,0 +1,99 @@
+/*---------------------------------------------------------
+# colore ufficiale 
+#399CFF
+#007bff
+#3498db 007bff
+
+-----------------------------------------------------------*/
+
+body {
+  font-family: sans-serif;
+  margin:        20px;
+  padding:     0 10px;
+}
+
+table {
+ /* border-collapse: collapse;*/
+  margin-bottom:   30px;
+  width:           100%;
+  overflow-x:      auto;
+  display:         block;
+
+  border-collapse: separate;
+  border-spacing: 0;
+
+}
+
+th, td {
+/* border: 1px     solid red; */
+  text-align:      left;
+  padding:         5px;
+  min-width:       30px;
+  font-size:       14px;
+}
+
+/*---------------------------------------------------------
+Pool Table
+-----------------------------------------------------------*/
+div.APoolContainer {
+  display:     inline-block;
+  overflow-x:  auto;
+  max-width:   100%;
+}
+
+
+.APoolTab {
+  border-collapse:  collapse;
+  table-layout:     auto;
+  width:            auto;
+  white-space:      nowrap;
+  font-size:        14px;
+ 
+}
+ 
+.FFTabHeader2Cell {
+  border: 1px solid #ccc;
+  color: white;
+  background: #007bff;
+  text-align: center;
+}
+
+
+.FFTabHeader2BlankCell {
+  border-top: red;
+  background: none;
+}
+
+ 
+ 
+
+/*---------------------------------------------------------
+Pool Buttons
+-----------------------------------------------------------*/
+.FFTab-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;         /* elimina il bordo focus */
+  box-shadow: none;      /* elimina eventuali ombre */
+}
+ 
+.FFTab-button:focus {
+  outline:    2px solid   orange;
+  box-shadow: 0 0 5px 2px orange;
+}
+
+.FFTab-button:hover {
+  background-color: #0056b3; 
+}
+
+
+ 
+.FFTab-colAA {
+  border: 1px solid green;
+}
